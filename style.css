@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    height: 500px;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+    padding-bottom: 5px;
+    border-bottom: 1px solid blue;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom:40px;
+}
+article {
+    position: relative;
+    padding: 50px 50px;
+    width: 50%;
+    height: 100%;
+    border: 10px solid blue;
+}
+
+.span-positioned {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    float: right;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+a {
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid blue;
+    color: purple;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+
+.link-share {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+
+
+}
